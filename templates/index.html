@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head>
+    <title>Webcam Stream with Flask and Mediapipe Pose Estimation</title>
+</head>
+<body>
+    <h1>Webcam Stream with Flask and Mediapipe Pose Estimation</h1>
+    <video id="video" width="640" height="480" autoplay></video>
+    <button id="startButton">Start</button>
+    <img id="processedImage">
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
